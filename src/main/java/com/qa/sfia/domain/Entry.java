@@ -7,20 +7,20 @@ import javax.persistence.Id;
 
 
 @Entity
-public class ToDo {
+public class Entry {
 
     @Id
     @GeneratedValue
     private Long id;
 
     @Column
-    private String entry;
+    private String description;
 
-    public ToDo() {
+    public Entry() {
     }
 
-    public ToDo(String entry) {
-        this.entry = entry;
+    public Entry(String description) {
+        this.description = description;
     }
 
     public Long getId() {
@@ -31,11 +31,11 @@ public class ToDo {
         this.id = id;
     }
 
-    public String getEntry() {
-        return entry;
+    public String getDescription() {
+        return description;
     }
 
-    public void setEntry(String entry) {
-        this.entry = entry;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

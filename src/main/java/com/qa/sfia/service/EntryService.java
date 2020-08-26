@@ -41,7 +41,7 @@ public class EntryService {
             throw new EntryNotFoundException();
         }
         this.repo.deleteById(id);
-        return.this.repo.existsById(id);
+        return this.repo.existsById(id);
     }
 
 }

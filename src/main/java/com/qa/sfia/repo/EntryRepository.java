@@ -1,10 +1,10 @@
 package com.qa.sfia.repo;
 
 
-import com.qa.sfia.domain.ToDo;
+import com.qa.sfia.domain.Entry;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ToDoRepository extends JpaRepository<ToDo, Long> {
+public interface EntryRepository extends JpaRepository<Entry, Long> {
 }

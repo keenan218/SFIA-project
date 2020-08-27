@@ -23,7 +23,7 @@ public class EntryController {
     }
 
     @PostMapping("/createEntry")
-    public Entry createNote(@RequestBody Entry entry){
+    public Entry createEntry(@RequestBody Entry entry){
         return this.entryService.createEntry(entry);
     }
 

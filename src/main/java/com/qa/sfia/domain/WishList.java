@@ -14,13 +14,13 @@ public class WishList {
     private Long id;
 
     @Column
-    private String WishList;
+    private String Title;
 
     public WishList() {
     }
 
-    public WishList(String wishList) {
-        WishList = wishList;
+    public WishList(String title) {
+        Title = title;
     }
 
     public Long getId() {
@@ -31,11 +31,11 @@ public class WishList {
         this.id = id;
     }
 
-    public String getWishList() {
-        return WishList;
+    public String getTitle() {
+        return Title;
     }
 
-    public void setWishList(String wishList) {
-        WishList = wishList;
+    public void setTitle(String title) {
+        Title = title;
     }
 }

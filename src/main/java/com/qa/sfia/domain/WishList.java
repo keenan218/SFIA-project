@@ -7,7 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class List {
+public class WishList {
 
     @Id
     @GeneratedValue
@@ -16,10 +16,10 @@ public class List {
     @Column
     private String WishList;
 
-    public List() {
+    public WishList() {
     }
 
-    public List(String wishList) {
+    public WishList(String wishList) {
         WishList = wishList;
     }
 

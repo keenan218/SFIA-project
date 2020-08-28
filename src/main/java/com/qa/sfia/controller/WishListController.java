@@ -19,7 +19,7 @@ public class WishListController {
         this.wishListService = wishListService;
     }
 
-    @GetMapping("/wl/")
+    @GetMapping("/wl/getAllWishLists")
     public List<WishList> getAllWishLists(){
         return this.wishListService.readAllWishLists();
     }
@@ -28,7 +28,7 @@ public class WishListController {
         return this.wishListService.createWishList(wishList);
     }
 
-    @DeleteMapping("/wl/delete/{id}")
+    @DeleteMapping("/wl/deleteWishList/{id}")
     public Boolean deleteWishList(@PathVariable Long id){
         return this.wishListService.deleteWishListById(id);
     }

@@ -2,9 +2,11 @@ package com.qa.sfia.controller;
 
 import com.qa.sfia.domain.Entry;
 import com.qa.sfia.service.EntryService;
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.websocket.server.PathParam;
 import java.util.List;
 
 @RestController
@@ -39,6 +41,11 @@ public class EntryController {
 
     @PutMapping("/updateEntry/{id}")
     public Entry updateEntry(@PathVariable Long id, @RequestBody Entry entry){
+        return this.entryService.updateEntry(id, entry);
+    }
+    @PutMapping("/updateEntryWithPathParam")
+    public Entry updateEntryWithPathParam(@PathParam("id") Long id, @RequestBody Entry entry){
+        // localhost:8080/updateEntryWithPathParam?id=1
         return this.entryService.updateEntry(id, entry);
     }
 }

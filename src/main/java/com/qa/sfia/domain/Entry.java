@@ -1,9 +1,6 @@
 package com.qa.sfia.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 
 @Entity
@@ -15,6 +12,9 @@ public class Entry {
 
     @Column
     private String description;
+
+    @ManyToOne(targetEntity = WishList.class)
+    private WishList wishList;
 
     public Entry() {
     }
@@ -37,5 +37,13 @@ public class Entry {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public WishList getWishList(){
+        return wishList;
+    }
+
+    public void setWishList(WishList wishList) {
+        this.wishList = wishList;
     }
 }

@@ -1,10 +1,8 @@
 package com.qa.sfia.domain;
 
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class WishList {
@@ -14,13 +12,16 @@ public class WishList {
     private Long id;
 
     @Column
-    private String Title;
+    private String title;
+
+    @OneToMany(mappedBy = "wishList", fetch = FetchType.LAZY)
+    private List<Entry> entries = new ArrayList<>();
 
     public WishList() {
     }
 
     public WishList(String title) {
-        Title = title;
+        this.title = title;
     }
 
     public Long getId() {
@@ -32,10 +33,18 @@ public class WishList {
     }
 
     public String getTitle() {
-        return Title;
+        return title;
     }
 
     public void setTitle(String title) {
-        Title = title;
+        this.title = title;
+    }
+
+    public List<Entry> getEntries() {
+        return entries;
+    }
+
+    public void setEntries(List<Entry> entries) {
+        this.entries = entries;
     }
 }

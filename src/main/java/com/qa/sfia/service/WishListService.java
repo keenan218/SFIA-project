@@ -1,6 +1,7 @@
 package com.qa.sfia.service;
 
 import com.qa.sfia.domain.WishList;
+import com.qa.sfia.exceptions.EntryNotFoundException;
 import com.qa.sfia.exceptions.WishListNotFoundException;
 import com.qa.sfia.repo.WishListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +39,7 @@ public class WishListService {
 
     public Boolean deleteWishListById(Long id){
         if(!this.repo.existsById(id)){
-            throw new WishListNotFoundException();
+            throw new EntryNotFoundException();
         }
         this.repo.deleteById(id);
         return this.repo.existsById(id);

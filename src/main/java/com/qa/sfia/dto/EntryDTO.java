@@ -1,14 +1,14 @@
 package com.qa.sfia.dto;
 
-public class EntryDto {
+public class EntryDTO {
 
     private Long id;
     private String description;
 
-    public EntryDto(){
+    public EntryDTO(){
     }
 
-    public EntryDto(String description) {
+    public EntryDTO(String description) {
         this.description = description;
     }
 

@@ -37,6 +37,6 @@ function displayWishlists(){
             console.log("Oh no... handle error");
         }
     };
-    req.open("GET", "http://localhost:8080/getAllNoteBooks");
+    req.open("GET", "http://localhost:8080/wl/getAllWishLists");
     req.send();
 }

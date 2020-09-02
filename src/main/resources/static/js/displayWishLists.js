@@ -13,7 +13,7 @@ function displayWishlists(){
                 let stuff = JSON.parse(req.response);
                 stuff.forEach(el => {
                    // console.log(el); // prints whole element
-                   // console.log(el.name); // allows access to specific value
+                   // console.log(el.title); // allows access to specific value
 
                     // adding title to the body of the page
                     let elem = document.createElement('div');

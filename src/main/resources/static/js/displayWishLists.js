@@ -12,16 +12,22 @@ function displayWishlists(){
 
                 let stuff = JSON.parse(req.response);
                 stuff.forEach(el => {
-                   // console.log(el); // prints whole element
+                   console.log(el); // prints whole element
                    // console.log(el.title); // allows access to specific value
 
                     // adding title to the body of the page
                     let elem = document.createElement('div');
+                    let id = document.createElement('h1');
+                    id.textContent = "Wishlist Id: " + el.id;
+                    elem.appendChild(id);
                     let header = document.createElement('h1');
                     header.textContent = "Wishlist name: " + el.title;
                     elem.appendChild(header);
                     el.entries.forEach(entry => {
                         console.log(entry) // print all entries for each wishlist
+                        let id = document.createElement('h4');
+                        id.textContent = "Entry Id: " + entry.id;
+                        elem.appendChild(id);
                         let description = document.createElement('p');
                         description.textContent = "Description: " + entry.description;
                         elem.appendChild(description);

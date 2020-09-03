@@ -1,15 +1,15 @@
 # SFIA-project
 ## Contents
-#### [Requirements](https://github.com/keenan218/SFIA-project#requirements-1)
-#### [Required Tech Stack](https://github.com/keenan218/SFIA-project#required-tech-stack-1)
-#### [Objectives](https://github.com/keenan218/SFIA-project#objective-1)
-##### - [CRUD](https://github.com/keenan218/SFIA-project#crud-1)
-#### [Architecture](https://github.com/keenan218/SFIA-project#architecture-1)
-##### - [Database Structure](https://github.com/keenan218/SFIA-project#database-structure-1)
-##### - [CI Pipeline](https://github.com/keenan218/SFIA-project#ci-pipeline-1)
-#### [Risk Assessment](https://github.com/keenan218/SFIA-project#risk-assessment-1)
-#### [Front-End Design](https://github.com/keenan218/SFIA-project#front-end-design-1)
-##### - [Known Issues](https://github.com/keenan218/SFIA-project#known-issues-1)
+#### - [Requirements](https://github.com/keenan218/SFIA-project#requirements-1)
+#### - [Required Tech Stack](https://github.com/keenan218/SFIA-project#required-tech-stack-1)
+#### - [Objectives](https://github.com/keenan218/SFIA-project#objective-1)
+##### -- [CRUD](https://github.com/keenan218/SFIA-project#crud-1)
+#### - [Architecture](https://github.com/keenan218/SFIA-project#architecture-1)
+##### -- [Database Structure](https://github.com/keenan218/SFIA-project#database-structure-1)
+##### -- [CI Pipeline](https://github.com/keenan218/SFIA-project#ci-pipeline-1)
+#### - [Risk Assessment](https://github.com/keenan218/SFIA-project#risk-assessment-1)
+#### - [Front-End Design](https://github.com/keenan218/SFIA-project#front-end-design-1)
+##### -- [Known Issues](https://github.com/keenan218/SFIA-project#known-issues-1)
 
 
 ## Requirements

@@ -21,7 +21,7 @@ function displayWishlists(){
                     header.textContent = "Wishlist name: " + el.title;
                     elem.appendChild(header);
                     el.entries.forEach(entry => {
-                        console.log(entry) // print all notes for each wishlist
+                        console.log(entry) // print all entries for each wishlist
                         let description = document.createElement('p');
                         description.textContent = "Description: " + entry.description;
                         elem.appendChild(description);

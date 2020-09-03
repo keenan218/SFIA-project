@@ -9,9 +9,6 @@
 - A relational database used to persistently store data for the project
 - A functional application created in the OOP language
 - Application must have a functioning front-end website and integrated API
-- Fully designed test suites for the application
-- Automated tests for validation of the application
-- Evidence showing an acceptable level of test coverage 
 - Code fully integrated into a Version Control System
 - Code built through a CI server
 - Application deployed to a cloud-based virtual machine

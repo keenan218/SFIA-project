@@ -1,5 +1,15 @@
 # SFIA-project
 ## Contents
+### [Requirements](https://github.com/keenan218/SFIA-project#requirements)
+### [Required Tech Stack](https://github.com/keenan218/SFIA-project#required-tech-stack)
+### [Objectives](https://github.com/keenan218/SFIA-project#objective)
+#### - [CRUD](https://github.com/keenan218/SFIA-project#crud)
+### [Architecture](https://github.com/keenan218/SFIA-project#architecture)
+#### - [Database Structure](https://github.com/keenan218/SFIA-project#database-structure)
+#### - [CI Pipeline](https://github.com/keenan218/SFIA-project#ci-pipeline)
+### [Risk Assessment](https://github.com/keenan218/SFIA-project#risk-assessment)
+### [Front-End Design](https://github.com/keenan218/SFIA-project#front-end-design)
+#### - [Known Issues](https://github.com/keenan218/SFIA-project#known-issues)
 
 
 ## Requirements
@@ -47,10 +57,6 @@ Users can:
 - delete their accounts
 - delete entries they have made in the list
 
-
-
-I would also like to have functionality of a importance feature, this will allow the user to note that a specific task in the list is of higher urgency than another task.
-A great functionality for a to-do/ wishlist hybrid so users can easily see which jobs they should do first. 
 
 
 ## Architecture

@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Sign Up</title>
 </head>
 <body>
-    <form action="index.html" method="post">
+    <a href="Homepage.html">Homepage</a> <br>
+    <form id="signUpForm" action="index.html" method="post">
         <h1>Sign Up</h1>
         <fieldset>
             <legend><span class="Number"> Your info here: </legend>
@@ -14,7 +15,7 @@
                 <input type="name" placeholder="Enter Username" name="Username"/>
             </label>
             <br/>
-            <label for="email">Email:   </label>
+            <label for="email">Email:</label>
             <label>
                 <input type="email" placeholder="Enter your email" name="email"/>
             </label>
@@ -24,9 +25,9 @@
                 <input type="password" placeholder="Enter your password" name="password"/>
             </label>
             <br/>
-
+            <input type="submit" onclick="createUser()" value="Submit">
         </fieldset>
-        <button type="submit">Sign Up</button>
+
     </form>
 
     <h4>Already a member? Log In below.</h4>

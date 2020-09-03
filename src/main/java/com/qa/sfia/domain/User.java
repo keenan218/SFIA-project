@@ -31,8 +31,13 @@ public class User {
     public User() {
     }
 
-    public User(String userName) {
+    public User(Long id, String userName, String fName, String lName, String email, String password) {
+        this.id = id;
         this.userName = userName;
+        this.fName = fName;
+        this.lName = lName;
+        this.email = email;
+        this.password = password;
     }
 
     public Long getId() {

@@ -34,6 +34,7 @@ public class WishListController {
     public Boolean deleteWishLists(@PathVariable Long id){
         return this.wishListService.deleteWishListById(id);
     }
+
     @GetMapping("/wl/getWishListById/{id}")
     public ResponseEntity<WishListDTO> getWishListById(@PathVariable Long id){
         return ResponseEntity.ok(this.wishListService.findWishListById(id));

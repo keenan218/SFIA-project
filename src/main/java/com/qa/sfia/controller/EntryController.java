@@ -49,7 +49,7 @@ public class EntryController {
     }
     @PutMapping("/updateEntryWithPathParam")
     public ResponseEntity<EntryDTO> updateEntryWithPathParam(@PathParam("id") Long id, @RequestBody Entry entry){
-        // localhost:8080/updateNoteWithPathParam?id=1
+        // localhost:8080/updateEntryWithPathParam?id=1
         return ResponseEntity.ok(this.entryService.updateEntry(id, entry));
     }
 }

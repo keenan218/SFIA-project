@@ -81,6 +81,8 @@ The risk assessment was made on google sheets and can be accessed on this link -
 ![Risk Assessment](https://github.com/keenan218/Fundamentals-project-1/blob/master/risk_assessment.png)
 
 ## Front-End Design
+Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 
+
 
 ### Known Issues
 - One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.

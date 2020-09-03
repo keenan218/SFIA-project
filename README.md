@@ -76,4 +76,5 @@ The risk assessment was made on google sheets and can be accessed on this link -
 ## Front-End Design
 
 ### Known Issues
-So far, one known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.
+- One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.
+- Wishlists don't have a seperate ID to entries, because of this if you create a wishlist (this will have ID 1), then 5 entries, then another wishlist, this second wishlist will have the id of 7 as opposed to 2.

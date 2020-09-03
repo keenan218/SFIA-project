@@ -56,7 +56,6 @@ A great functionality for a to-do/ wishlist hybrid so users can easily see which
 ## Architecture
 
 ### Database Structure
-
 #### Entity Relationship Diagram
 
 Displayed below is my Entity Relationship Diagram (ERD). This shows the structure of the database, i.e. how my tables are laid out and how they link to one another. Displayed in the ERD you will see one-to-many relationships between Users and Wishlists and Wishlists and Entries.

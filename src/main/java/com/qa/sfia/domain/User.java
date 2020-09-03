@@ -31,8 +31,7 @@ public class User {
     public User() {
     }
 
-    public User(Long id, String userName, String fName, String lName, String email, String password) {
-        this.id = id;
+    public User(String userName, String fName, String lName, String email, String password) {
         this.userName = userName;
         this.fName = fName;
         this.lName = lName;

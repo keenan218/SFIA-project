@@ -1,16 +1,20 @@
 function createUser() {
-    // let elements = document.getElementById("signUpForm").elements;
-    let user = new Parse.User();
-    user.set("username", "my name");
-    user.set("password", "my pass");
-    user.set("email", "email@example.com");
+    let elements = document.getElementById("signUpForm").elements;
+    let obj ={};
+    for(let i = 0 ; i < elements.length - 1 ; i++){
+        let item = elements.item(i);
+        obj[item.name] = item.value;
+    }
 
-    // other fields can be set just like with Parse.Object
-    user.set("phone", "415-392-0202");
-
-    user.createUser().then(function (user) {
-        console.log('User created successful with name: ' + user.get("username") + ' and email: ' + user.get("email"));
-    }).catch(function (error) {
-        console.log("Error: " + error.code + " " + error.message);
-    });
+    const req = new XMLHttpRequest();
+    req.open("POST", "http://localhost:8080/createUser");
+    req.onload = () => {
+        if (req.status === 200 && req.readyState == 4) {
+            console.log("Server Responded with: " + req.responseText);
+        } else {
+            console.log("Oops...");
+        }
+    };
+    req.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+    req.send(JSON.stringify({ userName: obj.userName, fName: obj.fName, lName: obj.lName, email: obj.email, password: obj.password}));
 }

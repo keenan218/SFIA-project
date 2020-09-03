@@ -74,3 +74,6 @@ The risk assessment was made on google sheets and can be accessed on this link -
 ![Risk Assessment](https://github.com/keenan218/Fundamentals-project-1/blob/master/risk_assessment.png)
 
 ## Front-End Design
+
+### Known Issues
+So far, one known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.

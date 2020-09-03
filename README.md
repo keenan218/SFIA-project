@@ -58,7 +58,7 @@ A great functionality for a to-do/ wishlist hybrid so users can easily see which
 ### Database Structure
 
 ### Entity Relationship Diagram
-![ERD] ()
+![ERD](https://github.com/keenan218/Fundamentals-project-1/blob/master/ERD.png)
 
 ### CI Pipeline
 

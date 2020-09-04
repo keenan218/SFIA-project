@@ -16,23 +16,23 @@
 
 ## Requirements
 -   Create a JIRA board containing user stories, use cases and the tasks needed to complete the project
-- Documentation from the design phase describing the architecture that will be used
-- A detailed Risk Assessment
-- A relational database used to persistently store data for the project
-- A functional application created in the OOP language
-- Application must have a functioning front-end website and integrated API
-- Code fully integrated into a Version Control System
-- Code built through a CI server
-- Application deployed to a cloud-based virtual machine
+-   Documentation from the design phase describing the architecture that will be used
+-   A detailed Risk Assessment
+-   A relational database used to persistently store data for the project
+-   A functional application created in the OOP language
+-   Application must have a functioning front-end website and integrated API
+-   Code fully integrated into a Version Control System
+-   Code built through a CI server
+-   Application deployed to a cloud-based virtual machine
 
 ### Required Tech Stack
-- Kanban board made on Jira
-- Database: GCP Managed SQL Server
-- Programming Language: java 
-- Front-end: HTML, CSS and JavaScript
-- Version Control: Git
-- CI Server: CircleCI
-- Cloud server: GCP virtual machine
+-   Kanban board made on Jira
+-   Database: GCP Managed SQL Server
+-   Programming Language: java 
+-   Front-end: HTML, CSS and JavaScript
+-   Version Control: Git
+-   CI Server: CircleCI
+-   Cloud server: GCP virtual machine
 
 ## Objective
 The objective of this project is to create a CRUD application, that encapsulates and integrates everything we have learnt during out short time at the academy. 

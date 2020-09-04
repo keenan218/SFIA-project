@@ -91,13 +91,13 @@ Even though the project maybe in very early stages it still has all the necessar
 ![create wishlist](https://github.com/keenan218/SFIA-project/blob/master/Create%20new%20wishlist%20page.png)
 
 #### Create Entry page
-![create entry](https://github.com/keenan218/SFIA-project/blob/master/Add%20entry%20page.png)
+![create entry](https://github.com/keenan218/SFIA-project/blob/master/Create%20Entry.png)
 
 #### View wishlists
 ![view wishlists](https://github.com/keenan218/SFIA-project/blob/master/View%20wishlists%20page.png)
 
 #### Update entry page 
-![update entry](https://github.com/keenan218/SFIA-project/blob/master/update%20entry%20page.png) 
+![update entry](https://github.com/keenan218/SFIA-project/blob/master/Update%20Entry.png) 
 
 #### Delete entry page
 ![delete entry](https://github.com/keenan218/SFIA-project/blob/master/delete%20entry%20page.png)

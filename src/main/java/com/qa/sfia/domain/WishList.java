@@ -1,10 +1,13 @@
 package com.qa.sfia.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler", "entries"})
 public class WishList {
 
     @Id
@@ -14,7 +17,7 @@ public class WishList {
     @Column
     private String title;
 
-    @OneToMany(mappedBy = "wishList", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "wishList", fetch = FetchType.EAGER)
     private List<Entry> entries = new ArrayList<>();
 
     public WishList() {

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/updateEntry.js"></script>
+
+</head>
+<body>
+    <a href="Homepage.html">Homepage</a> <br>
+    <a href="List-View.html">Lists page</a><br>
+
+    <form id="updateEntryForm">
+        <label for="id">Entry ID:</label><br>
+        <input type="text" id="id" name="id"><br>
+        <label for="description">Description:</label><br>
+        <input type="text" id="description" name="description"><br>
+        <label for="wishListId">WishList ID:</label><br>
+        <input type="text" id="wishListId" name="wishListId"><br><br>
+        <input type="submit" onclick="updateEntry()" value="Submit">
+    </form>
+</body>
+</html>

@@ -37,24 +37,24 @@
 ## Objective
 The objective of this project is to create a CRUD application, that encapsulates and integrates everything we have learnt during out short time at the academy. 
 ### CRUD
-- Made up of 4 functions; Create, Read, Update and Delete.
+-   Made up of 4 functions; Create, Read, Update and Delete.
 To adhere to CRUD, functionality will be added to allow the user to (if followed by '-' feature isn't implemented yet):
 #### C - Create
-- Create Wishlists
-- Create entries into the wishlist.
-- Create Accounts -
+-   Create Wishlists
+-   Create entries into the wishlist.
+-   Create Accounts -
 
 #### R - Read
-- be able to read and view their list
-- be able to view their accounts -
+-   be able to read and view their list
+-   be able to view their accounts -
 
 #### U - Update
-- be able to edit entries they have made to the application
-- be able to update their details -
+-   be able to edit entries they have made to the application
+-   be able to update their details -
 
 #### D - Delete
-- delete entries they have made in the list
-- delete their accounts -
+-   delete entries they have made in the list
+-   delete their accounts -
 
 ## Architecture
 
@@ -72,35 +72,35 @@ Risks become apparent on any project on any scale. They can arise from things yo
 
 This risk assessment assesses a risk by detailing what it is, what the consequences are if it so happens and the triggered reaction from us as the developers. It also assesses the severity of the risk, the likelihood of it happening, and whom is responsible if it does happen. Furthermore proposed mitigation is also addressed according to each risk.
 
-The risk assessment was made on google sheets and can be accessed on this link - https://docs.google.com/spreadsheets/d/1deCTx0a3wwEZXrtYkFAwLKYbllitNZS0PWtYzJ_anMg/edit?usp=sharing
+The risk assessment was made on google sheets and can be accessed on this link - <https://docs.google.com/spreadsheets/d/1deCTx0a3wwEZXrtYkFAwLKYbllitNZS0PWtYzJ_anMg/edit?usp=sharing>
 
 ![Risk Assessment](https://github.com/keenan218/SFIA-project/blob/master/RA%20-%20Imgur.png)
 
 ## Front-End Design
 Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 
 
-#### - Homepage
+### - Homepage
 ![Homepage](https://github.com/keenan218/SFIA-project/blob/master/homepage.png)
 
-#### - Sign up page
+### - Sign up page
 ![Sign Up](https://github.com/keenan218/SFIA-project/blob/master/Sign%20up%20page.png) 
 
-#### - Log in page
+### - Log in page
 ![Log In](https://github.com/keenan218/SFIA-project/blob/master/log%20in%20page.png)
 
-#### - Create Wishlist
+### - Create Wishlist
 ![create wishlist](https://github.com/keenan218/SFIA-project/blob/master/Create%20new%20wishlist%20page.png)
 
-#### - Create Entry page
+### - Create Entry page
 ![create entry](https://github.com/keenan218/SFIA-project/blob/master/Create%20Entry.png)
 
-#### - View wishlists
+### - View wishlists
 ![view wishlists](https://github.com/keenan218/SFIA-project/blob/master/View%20wishlists%20page.png)
 
-#### - Update entry page 
+### - Update entry page 
 ![update entry](https://github.com/keenan218/SFIA-project/blob/master/Update%20Entry.png) 
 
-#### - Delete entry page
+### - Delete entry page
 ![delete entry](https://github.com/keenan218/SFIA-project/blob/master/delete%20entry%20page.png)
 
 ### Known Issues

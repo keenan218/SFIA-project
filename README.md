@@ -79,23 +79,35 @@ The risk assessment was made on google sheets and can be accessed on this link -
 Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 
 
 #### Homepage
+=============
 ![Homepage](https://github.com/keenan218/SFIA-project/blob/master/homepage.png)
 
-#### Sign up & Log in pages
+#### Sign up page
+=================
 ![Sign Up](https://github.com/keenan218/SFIA-project/blob/master/Sign%20up%20page.png) 
+
+#### Log in page
+================
 ![Log In](https://github.com/keenan218/SFIA-project/blob/master/log%20in%20page.png)
 
 #### Create Wishlist
+====================
 ![create wishlist](https://github.com/keenan218/SFIA-project/blob/master/Create%20new%20wishlist%20page.png)
 
 #### Create Entry page
+======================
 ![create entry](https://github.com/keenan218/SFIA-project/blob/master/Add%20entry%20page.png)
 
 #### View wishlists
+===================
 ![view wishlists](https://github.com/keenan218/SFIA-project/blob/master/View%20wishlists%20page.png)
 
-#### Update & Delete entry pages
+#### Update entry page 
+======================
 ![update entry](https://github.com/keenan218/SFIA-project/blob/master/update%20entry%20page.png) 
+
+#### Delete entry page
+======================
 ![delete entry](https://github.com/keenan218/SFIA-project/blob/master/delete%20entry%20page.png)
 
 

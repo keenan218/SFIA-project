@@ -86,5 +86,5 @@ Even though the project maybe in very early stages it still has all the necessar
 
 ### Future Features
 - The ability to successfully create a User account
-- - This comes with th efunctionality of being able to update user details and delete your account.
+- - This comes with the functionality of being able to update user details and delete your account.
 - The ability to delete and update Wishlists, currently there is no way to do so.

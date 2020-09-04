@@ -1,5 +1,8 @@
-# SFIA-project
-## Contents
+## SFIA-project
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21333cfbc0ef43df823ac4fe3f797744)](https://app.codacy.com/manual/keenan218/SFIA-project?utm_source=github.com&utm_medium=referral&utm_content=keenan218/SFIA-project&utm_campaign=Badge_Grade_Dashboard)
+
+### Contents
 #### [Requirements](https://github.com/keenan218/SFIA-project#requirements-1)
 #### [Required Tech Stack](https://github.com/keenan218/SFIA-project#required-tech-stack-1)
 #### [Objectives](https://github.com/keenan218/SFIA-project#objective-1)
@@ -10,7 +13,6 @@
 #### [Risk Assessment](https://github.com/keenan218/SFIA-project#risk-assessment-1)
 #### [Front-End Design](https://github.com/keenan218/SFIA-project#front-end-design-1)
 ##### - [Known Issues](https://github.com/keenan218/SFIA-project#known-issues-1)
-
 
 ## Requirements
 - Create a JIRA board containing user stories, use cases and the tasks needed to complete the project
@@ -54,7 +56,6 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 - delete entries they have made in the list
 - delete their accounts -
 
-
 ## Architecture
 
 ### Database Structure
@@ -63,7 +64,7 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 Displayed below is my Entity Relationship Diagram (ERD). This shows the structure of the database, i.e. how my tables are laid out and how they link to one another. Displayed in the ERD you will see one-to-many relationships between Users and Wishlists and Wishlists and Entries.
 ![ERD](https://github.com/keenan218/SFIA-project/blob/master/ERD.png)
 ### CI Pipeline
-
+![CI Pipeline](https://github.com/keenan218/SFIA-project/blob/master/ci%20pipeline.png)
 
 ## Risk Assessment
 
@@ -78,6 +79,29 @@ The risk assessment was made on google sheets and can be accessed on this link -
 ## Front-End Design
 Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 
 
+#### - Homepage
+![Homepage](https://github.com/keenan218/SFIA-project/blob/master/homepage.png)
+
+#### - Sign up page
+![Sign Up](https://github.com/keenan218/SFIA-project/blob/master/Sign%20up%20page.png) 
+
+#### - Log in page
+![Log In](https://github.com/keenan218/SFIA-project/blob/master/log%20in%20page.png)
+
+#### - Create Wishlist
+![create wishlist](https://github.com/keenan218/SFIA-project/blob/master/Create%20new%20wishlist%20page.png)
+
+#### - Create Entry page
+![create entry](https://github.com/keenan218/SFIA-project/blob/master/Create%20Entry.png)
+
+#### - View wishlists
+![view wishlists](https://github.com/keenan218/SFIA-project/blob/master/View%20wishlists%20page.png)
+
+#### - Update entry page 
+![update entry](https://github.com/keenan218/SFIA-project/blob/master/Update%20Entry.png) 
+
+#### - Delete entry page
+![delete entry](https://github.com/keenan218/SFIA-project/blob/master/delete%20entry%20page.png)
 
 ### Known Issues
 - One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.

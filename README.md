@@ -36,27 +36,23 @@
 The objective of this project is to create a CRUD application, that encapsulates and integrates everything we have learnt during out short time at the academy. 
 ### CRUD
 - Made up of 4 functions; Create, Read, Update and Delete.
-To adhere to CRUD, functionality will be added to allow the user to:
+To adhere to CRUD, functionality will be added to allow the user to (if followed by '-' feature isn't implemented yet):
 #### C - Create
-Users will:
-- Create Accounts
-- Enter userName
-- Enter email
-- Enter password
-- Create entries into the list.
-#### R - Read
-Users will:
-- be able to read and view their list
-- be able to view their accounts 
-#### U - Update
-Users will:
-- be able to update their details
-- be able to edit entries they have made to the application
-#### D - Delete
-Users can:
-- delete their accounts
-- delete entries they have made in the list
+- Create Wishlists
+- Create entries into the wishlist.
+- Create Accounts -
 
+#### R - Read
+- be able to read and view their list
+- be able to view their accounts -
+
+#### U - Update
+- be able to edit entries they have made to the application
+- be able to update their details -
+
+#### D - Delete
+- delete entries they have made in the list
+- delete their accounts -
 
 
 ## Architecture
@@ -86,3 +82,9 @@ Even though the project maybe in very early stages it still has all the necessar
 ### Known Issues
 - One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.
 - Wishlists don't have a seperate ID to entries, because of this if you create a wishlist (this will have ID 1), then 5 entries, then another wishlist, this second wishlist will have the id of 7 as opposed to 2.
+- When you try to create an account there is currently nowhere to store User data, and so it gives an error after you click the 'sign up' button
+
+### Future Features
+- The ability to successfully create a User account
+- - This comes with th efunctionality of being able to update user details and delete your account.
+- The ability to delete and update Wishlists, currently there is no way to do so.

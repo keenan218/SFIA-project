@@ -1,0 +1,32 @@
+# Java Gradle CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-java/ for more details
+#
+version: 2.1
+jobs:
+  test:
+    machine:
+      enabled: true
+    steps:
+      - run: echo "Test can run here!"
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run:
+          name: Install Java & Maven
+          command: ssh $SSH_USER@$SSH_HOST "sudo apt-get update && sudo apt-get install -y curl git && sudo apt-get install -y openjdk-8-jdk"
+      - run:
+          name: Clone Repo & Install Application Dependencies
+          command: ssh $SSH_USER@$SSH_HOST "git clone https://github.com/keenan218/SFIA-project.git && cd ~/SFIASpring && sudo apt-get install -y maven"
+      - run:
+          name: Deploy Application
+          command: ssh $SSH_USER@$SSH_HOST "cd ~/SFIASpring && mvn verify"
+workflows:
+  version: 2.1
+  test-and-deploy:
+    jobs:
+      - test
+      - deploy:
+          requires:
+            - test

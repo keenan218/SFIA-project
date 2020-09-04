@@ -15,7 +15,7 @@
 ##### - [Known Issues](https://github.com/keenan218/SFIA-project#known-issues-1)
 
 ## Requirements
-- Create a JIRA board containing user stories, use cases and the tasks needed to complete the project
+-   Create a JIRA board containing user stories, use cases and the tasks needed to complete the project
 - Documentation from the design phase describing the architecture that will be used
 - A detailed Risk Assessment
 - A relational database used to persistently store data for the project

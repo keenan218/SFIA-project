@@ -16,7 +16,9 @@ jobs:
       - run:
           name: Install Java & Maven
           command: ssh $SSH_USER@$SSH_HOST "sudo apt-get update && sudo apt-get install -y curl git && sudo apt-get install -y openjdk-8-jdk"
-      
+      - run:
+          name: Clone Repo & Install Application Dependencies
+          command: ssh $SSH_USER@$SSH_HOST "git clone https://github.com/keenan218/SFIA-project.git && cd ~/SFIA-project && sudo apt-get install -y maven"
       - run:
           name: Deploy Application
           command: ssh $SSH_USER@$SSH_HOST "cd ~/SFIA-project && mvn verify"

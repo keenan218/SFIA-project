@@ -14,7 +14,7 @@
 #### [Front-End Design](https://github.com/keenan218/SFIA-project#front-end-design-1)
 ##### - [Known Issues](https://github.com/keenan218/SFIA-project#known-issues-1)
 
-## Requirements
+## Project Requirements
 -   Create a JIRA board containing user stories, use cases and the tasks needed to complete the project
 -   Documentation from the design phase describing the architecture that will be used
 -   A detailed Risk Assessment
@@ -25,7 +25,7 @@
 -   Code built through a CI server
 -   Application deployed to a cloud-based virtual machine
 
-### Required Tech Stack
+### Tech Stack Required
 -   Kanban board made on Jira
 -   Database: GCP Managed SQL Server
 -   Programming Language: java 
@@ -56,7 +56,7 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 -   delete entries they have made in the list
 -   delete their accounts -
 
-## Architecture
+## Project Architecture
 
 ### Database Structure
 #### Entity Relationship Diagram
@@ -76,7 +76,7 @@ The risk assessment was made on google sheets and can be accessed on this link -
 
 ![Risk Assessment](https://github.com/keenan218/SFIA-project/blob/master/RA%20-%20Imgur.png)
 
-## Front-End Design
+## App Design
 Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 
 
 ### - Homepage
@@ -104,11 +104,11 @@ Even though the project maybe in very early stages it still has all the necessar
 ![delete entry](https://github.com/keenan218/SFIA-project/blob/master/delete%20entry%20page.png)
 
 ### Known Issues
-- One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.
-- Wishlists don't have a seperate ID to entries, because of this if you create a wishlist (this will have ID 1), then 5 entries, then another wishlist, this second wishlist will have the id of 7 as opposed to 2.
-- When you try to create an account there is currently nowhere to store User data, and so it gives an error after you click the 'sign up' button
+-   One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.
+-   Wishlists don't have a seperate ID to entries, because of this if you create a wishlist (this will have ID 1), then 5 entries, then another wishlist, this second wishlist will have the id of 7 as opposed to 2.
+-   When you try to create an account there is currently nowhere to store User data, and so it gives an error after you click the 'sign up' button
 
 ### Future Features
-- The ability to successfully create a User account
-- - This comes with the functionality of being able to update user details and delete your account.
-- The ability to delete and update Wishlists, currently there is no way to do so.
+-   The ability to successfully create a User account
+- -   This comes with the functionality of being able to update user details and delete your account.
+-   The ability to delete and update Wishlists, currently there is no way to do so.

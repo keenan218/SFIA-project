@@ -1,5 +1,5 @@
-# SFIA-project
-## Contents
+## SFIA-project
+### Contents
 #### [Requirements](https://github.com/keenan218/SFIA-project#requirements-1)
 #### [Required Tech Stack](https://github.com/keenan218/SFIA-project#required-tech-stack-1)
 #### [Objectives](https://github.com/keenan218/SFIA-project#objective-1)

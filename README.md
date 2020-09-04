@@ -2,7 +2,6 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/21333cfbc0ef43df823ac4fe3f797744)](https://app.codacy.com/manual/keenan218/SFIA-project?utm_source=github.com&utm_medium=referral&utm_content=keenan218/SFIA-project&utm_campaign=Badge_Grade_Dashboard)
 
-
 ### Contents
 #### [Requirements](https://github.com/keenan218/SFIA-project#requirements-1)
 #### [Required Tech Stack](https://github.com/keenan218/SFIA-project#required-tech-stack-1)
@@ -11,7 +10,7 @@
 #### [Architecture](https://github.com/keenan218/SFIA-project#architecture-1)
 ##### - [Database Structure](https://github.com/keenan218/SFIA-project#database-structure-1)
 ##### - [CI Pipeline](https://github.com/keenan218/SFIA-project#ci-pipeline-1)
-#### [Risk Assessment](https://github.com/keenan218/SFIA-project#risk-assessment-1)
+#### [Risks Assessment](https://github.com/keenan218/SFIA-project#risk-assessment-1)
 #### [Front-End Design](https://github.com/keenan218/SFIA-project#front-end-design-1)
 ##### - [Known Issues](https://github.com/keenan218/SFIA-project#known-issues-1)
 
@@ -111,5 +110,5 @@ Even though the project maybe in very early stages it still has all the necessar
 
 ### Future Features
 -   The ability to successfully create a User account
-- -   This comes with the functionality of being able to update user details and delete your account.
+-   -   This comes with the functionality of being able to update user details and delete your account.
 -   The ability to delete and update Wishlists, currently there is no way to do so.

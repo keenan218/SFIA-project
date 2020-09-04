@@ -11,7 +11,6 @@
 #### [Front-End Design](https://github.com/keenan218/SFIA-project#front-end-design-1)
 ##### - [Known Issues](https://github.com/keenan218/SFIA-project#known-issues-1)
 
-
 ## Requirements
 - Create a JIRA board containing user stories, use cases and the tasks needed to complete the project
 - Documentation from the design phase describing the architecture that will be used
@@ -54,7 +53,6 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 - delete entries they have made in the list
 - delete their accounts -
 
-
 ## Architecture
 
 ### Database Structure
@@ -63,7 +61,7 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 Displayed below is my Entity Relationship Diagram (ERD). This shows the structure of the database, i.e. how my tables are laid out and how they link to one another. Displayed in the ERD you will see one-to-many relationships between Users and Wishlists and Wishlists and Entries.
 ![ERD](https://github.com/keenan218/SFIA-project/blob/master/ERD.png)
 ### CI Pipeline
-
+![CI Pipeline](https://github.com/keenan218/SFIA-project/blob/master/ci%20pipeline.png)
 
 ## Risk Assessment
 
@@ -101,8 +99,6 @@ Even though the project maybe in very early stages it still has all the necessar
 
 #### - Delete entry page
 ![delete entry](https://github.com/keenan218/SFIA-project/blob/master/delete%20entry%20page.png)
-
-
 
 ### Known Issues
 - One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.

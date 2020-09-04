@@ -77,7 +77,7 @@ This risk assessment assesses a risk by detailing what it is, what the consequen
 
 The risk assessment was made on google sheets and can be accessed on this link - https://docs.google.com/spreadsheets/d/1deCTx0a3wwEZXrtYkFAwLKYbllitNZS0PWtYzJ_anMg/edit?usp=sharing
 
-![Risk Assessment](https://imgur.com/gallery/Q2GCWuh)
+![Risk Assessment](<blockquote class="imgur-embed-pub" lang="en" data-id="a/Q2GCWuh"  ><a href="//imgur.com/a/Q2GCWuh">RA</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>)
 
 ## Front-End Design
 Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 

@@ -65,7 +65,7 @@ Users can:
 #### Entity Relationship Diagram
 
 Displayed below is my Entity Relationship Diagram (ERD). This shows the structure of the database, i.e. how my tables are laid out and how they link to one another. Displayed in the ERD you will see one-to-many relationships between Users and Wishlists and Wishlists and Entries.
-![ERD](https://imgur.com/a/Kw4RQ5a)
+![ERD](https://imgur.com/gallery/VVHu72T)
 ### CI Pipeline
 
 
@@ -77,7 +77,7 @@ This risk assessment assesses a risk by detailing what it is, what the consequen
 
 The risk assessment was made on google sheets and can be accessed on this link - https://docs.google.com/spreadsheets/d/1deCTx0a3wwEZXrtYkFAwLKYbllitNZS0PWtYzJ_anMg/edit?usp=sharing
 
-![Risk Assessment](https://github.com/keenan218/Fundamentals-project-1/blob/master/risk_assessment.png)
+![Risk Assessment](https://imgur.com/gallery/Q2GCWuh)
 
 ## Front-End Design
 Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 

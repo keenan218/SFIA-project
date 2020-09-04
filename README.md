@@ -1,5 +1,7 @@
 ## SFIA-project
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/21333cfbc0ef43df823ac4fe3f797744)](https://app.codacy.com/manual/keenan218/SFIA-project?utm_source=github.com&utm_medium=referral&utm_content=keenan218/SFIA-project&utm_campaign=Badge_Grade_Dashboard)
+
 
 ### Contents
 #### [Requirements](https://github.com/keenan218/SFIA-project#requirements-1)

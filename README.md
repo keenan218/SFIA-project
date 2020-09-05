@@ -62,7 +62,7 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 #### Entity Relationship Diagram
 
 Displayed below is my Entity Relationship Diagram (ERD). This shows the structure of the database, i.e. how my tables are laid out and how they link to one another. Displayed in the ERD you will see one-to-many relationships between Users and Wishlists and Wishlists and Entries.
-![ERD](https://github.com/keenan218/SFIA-project/blob/master/ERD.png)
+![ERD](https://github.com/keenan218/SFIA-project/blob/master/images/ERD.png)
 ### CI Pipeline
 ![CI Pipeline](https://github.com/keenan218/SFIA-project/blob/master/images/ci%20pipeline.png)
 
@@ -74,34 +74,34 @@ This risk assessment assesses a risk by detailing what it is, what the consequen
 
 The risk assessment was made on google sheets and can be accessed on this link - <https://docs.google.com/spreadsheets/d/1deCTx0a3wwEZXrtYkFAwLKYbllitNZS0PWtYzJ_anMg/edit?usp=sharing>
 
-![Risk Assessment](https://github.com/keenan218/SFIA-project/blob/master/RA%20-%20Imgur.png)
+![Risk Assessment](https://github.com/keenan218/SFIA-project/blob/master/images/RA%20-%20Imgur.png)
 
 ## App Design
 Even though the project maybe in very early stages it still has all the necessary functionality. You are able to create multiple Wishlists, each containing multiple entries. You have the ability to read your wishlists, update and even delete entries. The app has a sign-up and a log-in page, however these are currently still a work in progress as I am still adding the functionality. 
 
 ### - Homepage
-![Homepage](https://github.com/keenan218/SFIA-project/blob/master/homepage.png)
+![Homepage](https://github.com/keenan218/SFIA-project/blob/master/images/homepage.png)
 
 ### - Sign up page
-![Sign Up](https://github.com/keenan218/SFIA-project/blob/master/Sign%20up%20page.png) 
+![Sign Up](https://github.com/keenan218/SFIA-project/blob/master/images/Sign%20up%20page.png) 
 
 ### - Log in page
-![Log In](https://github.com/keenan218/SFIA-project/blob/master/log%20in%20page.png)
+![Log In](https://github.com/keenan218/SFIA-project/blob/master/images/log%20in%20page.png)
 
 ### - Create Wishlist
-![create wishlist](https://github.com/keenan218/SFIA-project/blob/master/Create%20new%20wishlist%20page.png)
+![create wishlist](https://github.com/keenan218/SFIA-project/blob/master/images/Create%20new%20wishlist%20page.png)
 
 ### - Create Entry page
-![create entry](https://github.com/keenan218/SFIA-project/blob/master/Create%20Entry.png)
+![create entry](https://github.com/keenan218/SFIA-project/blob/master/images/Create%20Entry.png)
 
 ### - View wishlists
-![view wishlists](https://github.com/keenan218/SFIA-project/blob/master/View%20wishlists%20page.png)
+![view wishlists](https://github.com/keenan218/SFIA-project/blob/master/images/View%20wishlists%20page.png)
 
 ### - Update entry page 
-![update entry](https://github.com/keenan218/SFIA-project/blob/master/Update%20Entry.png) 
+![update entry](https://github.com/keenan218/SFIA-project/blob/master/images/Update%20Entry.png) 
 
 ### - Delete entry page
-![delete entry](https://github.com/keenan218/SFIA-project/blob/master/delete%20entry%20page.png)
+![delete entry](https://github.com/keenan218/SFIA-project/blob/master/images/delete%20entry%20page.png)
 
 ### Known Issues
 -   One known issue is when a user goes to update an entry it updates the original entry but also creates a duplicate at the bottom of the list.

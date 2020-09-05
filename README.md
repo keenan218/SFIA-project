@@ -57,9 +57,11 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 -   delete their accounts -
 
 ## Project Architecture
+### Kanban Board
 
-### Database Structure
-#### Entity Relationship Diagram
+The Kanban Board was made by using JIRA, this helped me to keep a track of, and manage my progress over the course of this project. It contains User Stories, i.e. functionalities a user of the app would want to have, Tasks, these were mainly for my own use, keeping track of what aspects of the project i still had to do, e.g. the risk assessment.
+![JIRAboard](https://github.com/keenan218/SFIA-project/blob/master/images/JIRA%20BOARD.png)
+### Entity Relationship Diagram
 
 Displayed below is my Entity Relationship Diagram (ERD). This shows the structure of the database, i.e. how my tables are laid out and how they link to one another. Displayed in the ERD you will see one-to-many relationships between Users and Wishlists and Wishlists and Entries.
 ![ERD](https://github.com/keenan218/SFIA-project/blob/master/images/ERD.png)

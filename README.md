@@ -64,7 +64,7 @@ To adhere to CRUD, functionality will be added to allow the user to (if followed
 Displayed below is my Entity Relationship Diagram (ERD). This shows the structure of the database, i.e. how my tables are laid out and how they link to one another. Displayed in the ERD you will see one-to-many relationships between Users and Wishlists and Wishlists and Entries.
 ![ERD](https://github.com/keenan218/SFIA-project/blob/master/ERD.png)
 ### CI Pipeline
-![CI Pipeline](https://github.com/keenan218/SFIA-project/blob/master/ci%20pipeline.png)
+![CI Pipeline](https://github.com/keenan218/SFIA-project/blob/master/images/ci%20pipeline.png)
 
 ## Risk Assessment
 

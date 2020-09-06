@@ -22,16 +22,19 @@ public class EntryController {
     }
 
     @GetMapping("/")
+    @CrossOrigin(origins ="*")
     public ResponseEntity<List<EntryDTO>> getAllEntries(){
         return ResponseEntity.ok(this.entryService.readAllEntries());
     }
 
     @PostMapping("/createEntry")
+    @CrossOrigin(origins ="*")
     public ResponseEntity<EntryDTO> createEntry(@RequestBody Entry entry){
         return new ResponseEntity<EntryDTO>(this.entryService.createEntry(entry), HttpStatus.CREATED);
     }
 
     @DeleteMapping("/delete/{id}")
+    @CrossOrigin(origins ="*")
     public ResponseEntity<?> deleteEntry(@PathVariable Long id){
         return this.entryService.deleteEntryById(id)
                 ? ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build()
@@ -39,15 +42,18 @@ public class EntryController {
     }
 
     @GetMapping("/getEntryById/{id}")
+    @CrossOrigin(origins ="*")
     public ResponseEntity<EntryDTO> getEntryById(@PathVariable Long id){
         return ResponseEntity.ok(this.entryService.findEntryById(id));
     }
 
     @PutMapping("/updateEntry/{id}")
+    @CrossOrigin(origins ="*")
     public ResponseEntity<EntryDTO> updateEntry(@PathVariable Long id, @RequestBody Entry entry){
         return ResponseEntity.ok(this.entryService.updateEntry(id, entry));
     }
     @PutMapping("/updateEntryWithPathParam")
+    @CrossOrigin(origins ="*")
     public ResponseEntity<EntryDTO> updateEntryWithPathParam(@PathParam("id") Long id, @RequestBody Entry entry){
         // localhost:8080/updateEntryWithPathParam?id=1
         return ResponseEntity.ok(this.entryService.updateEntry(id, entry));

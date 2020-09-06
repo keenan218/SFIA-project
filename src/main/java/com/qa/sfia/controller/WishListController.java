@@ -21,31 +21,26 @@ public class WishListController {
     }
 
     @GetMapping("/wl/getAllWishLists")
-    @CrossOrigin(origins ="*")
     public ResponseEntity<List<WishListDTO>> getAllWishLists(){
         return ResponseEntity.ok(this.wishListService.readAllWishLists());
     }
 
     @PostMapping("/wl/createWishList")
-    @CrossOrigin(origins ="*")
     public ResponseEntity<WishListDTO> createWishList(@RequestBody WishList wishList){
         return new ResponseEntity<WishListDTO>(this.wishListService.createWishList(wishList), HttpStatus.CREATED);
     }
 
     @DeleteMapping("/wl/deleteWishList/{id}")
-    @CrossOrigin(origins ="*")
     public Boolean deleteWishLists(@PathVariable Long id){
         return this.wishListService.deleteWishListById(id);
     }
 
     @GetMapping("/wl/getWishListById/{id}")
-    @CrossOrigin(origins ="*")
     public ResponseEntity<WishListDTO> getWishListById(@PathVariable Long id){
         return ResponseEntity.ok(this.wishListService.findWishListById(id));
     }
 
     @PutMapping("/wl/updateWishList/{id}")
-    @CrossOrigin(origins ="*")
     public ResponseEntity<WishListDTO> updateWishList(@PathVariable Long id, @RequestBody WishList wishList){
         return ResponseEntity.ok(this.wishListService.updateWishList(id, wishList));
     }

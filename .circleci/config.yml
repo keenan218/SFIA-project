@@ -31,6 +31,7 @@ jobs:
       - run:
           name: Run application
           command: ssh $SSH_USER@$SSH_HOST "cd ~/SFIA-project && mvn -Dmaven.test.skip=true spring-boot:run"
+          no_output_timeout: 45m
 workflows:
   version: 2.1
   test-and-deploy:

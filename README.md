@@ -2,6 +2,9 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/21333cfbc0ef43df823ac4fe3f797744)](https://app.codacy.com/manual/keenan218/SFIA-project?utm_source=github.com&utm_medium=referral&utm_content=keenan218/SFIA-project&utm_campaign=Badge_Grade_Dashboard)
 
+Presentation made on Google Slides:
+<https://docs.google.com/presentation/d/1Iq28jBzrtqsWEZ58b_8pBw7T1SGJu7ZQwKVW6BuhZdI/edit#slide=id.gc6f80d1ff_0_0>
+
 ### Contents
 #### [Requirements](https://github.com/keenan218/SFIA-project#requirements-1)
 #### [Required Tech Stack](https://github.com/keenan218/SFIA-project#required-tech-stack-1)
